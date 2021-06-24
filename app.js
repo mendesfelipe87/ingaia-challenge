@@ -2,10 +2,10 @@ const express = require('express')
 const axios = require('axios')
 const sql = require('./sqlCommands')
 const utils = require('./utils')
-const port = 3000
+const port = process.env.PORT
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:3000/',
+  baseURL: 'https://ingaia-challenge-fm.herokuapp.com/',
   timeout: 1000
 });
 
