@@ -1,0 +1,22 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "API backend made with nodejs to calculate square meter",
+  "main": "app.js",
+  "repository": "git@gitlab.com:mendesfelipe/challenge.git",
+  "author": "Felipe Luis Mendes <felipe.mendes@lexisnexisrisk.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --silent",
+    "start": "node app"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mssql": "^7.1.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4",
+    "supertest": "^6.1.3"
+  }
+}
