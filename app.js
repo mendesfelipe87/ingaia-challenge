@@ -11,7 +11,7 @@ const axiosInstance = axios.create({
 
 var app = express()
 app.use(express.json())
-app.get('/', (req, res) => res.json({ message: 'Funcionando!' }))
+app.get('/', (req, res) => res.json({ message: 'Funcionando v2!' }))
 app.get('/valorMetroQuadrado', metroQuadrado.buscarValorMetroQuadrado)
 app.post('/calcularValorMetroQuadrado', utils.validaContentTypeBody, utils.validaCampos, (req, res) => metroQuadrado.calcularValorMetroQuadrado(req, res, axiosInstance))
 
