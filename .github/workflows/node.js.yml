@@ -30,5 +30,6 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
     - uses: actions/checkout@v2
+    - run: npm ci
     - run: npm test
     - run: npm run swagger-autogen
