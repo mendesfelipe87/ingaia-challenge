@@ -5,11 +5,11 @@
     "title": "REST API",
     "description": ""
   },
-  "host": "https://ingaia-challenge-fm.herokuapp.com",
+  "host": "ingaia-challenge-fm.herokuapp.com/",
   "basePath": "/",
   "tags": [],
   "schemes": [
-    "http"
+    "https"
   ],
   "consumes": [],
   "produces": [],
